@@ -1,0 +1,84 @@
+body {
+    font-size: 14pt;
+    width: 1200px;
+}
+
+.container {
+    margin: 30px 0 0 50px;;
+}
+
+h1, h2, h3, h4, #exp h4 {
+    color: #000;
+    font-size: 16pt;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: normal;
+}
+
+#header-name {
+    background-color: white;
+
+}
+
+#header-name h2 {
+    color: #777;
+}
+
+main {
+    background-image: none;
+}
+
+#profil {
+    text-align: center;
+}
+
+.middle, .middle p {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.skills_container {
+    padding-top: 30px;
+}
+
+#header-name {
+    padding-top: 30px;
+}
+
+#exp {
+    padding-bottom: 0;
+}
+
+.skills {
+    margin: 0 auto;
+}
+
+#exp .bar {
+    background-color: dimgrey;
+}
+
+#schools {
+    text-align: left;
+    padding-top: 0;
+}
+
+#schools div {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 8px;
+}
+
+.year {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 0;
+    border-top: 1px solid grey;
+}
+
+.contactinfo1 i {
+    color: black;
+
+}

@@ -1,0 +1,681 @@
+/**********  Général  *************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #505050;
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E23B02;
+}
+
+header {
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'sans-serif', 'Montserrat';
+    /*font-size: 22px;*/
+    display: inline-block;
+    margin-left: 0;
+    color: #F8F8F8;
+}
+
+h3 {
+    /*font-size: 20px;*/
+    font-weight: bold;
+    padding: 6px 0;
+    text-align: left;
+    color: #1C5570;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/**********   #Home Header  *************************/
+
+#header-name {
+    background-color: #1C5570;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home h2 {
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+header h1:before, header h1:after {
+    content: "{";
+    color: #F1AC52;
+    font-size: 7vw;
+    vertical-align: middle;
+    letter-spacing: 0.4vw;
+}
+
+header h1:before, header h1:after {
+    content: "{";
+}
+
+header h1:after {
+    content: "}";
+}
+
+header span {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+
+#home h2 {
+    color: #F8F8F8;
+}
+
+#home h2:nth-of-type(2n) {
+    color: #21cf8f;
+    font-size: 30px;
+}
+
+/**********   #Home nav  *************************/
+
+#language {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 50px;
+    height: 15px;
+}
+
+#language a {
+    color: white;
+}
+.navtoggle {
+    display: none;
+}
+
+nav {
+    position: fixed;
+    background: #a0a0a0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5vw;
+}
+
+nav ul > li {
+    display: inline-block;
+    position: relative;
+    padding: 8px 65px 8px 0;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+nav ul > li a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 125%;
+    font-weight: 300;
+    position: relative;
+    padding: 2px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    color: #666;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#navlinks a:hover {
+    color: #666;
+}
+
+#navlinks a.active {
+    border-bottom: 3px solid #E23B02;
+    color: #1C5570;
+}
+
+#navlinks > li.active > a:after {
+    background-color: #90c05d;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 10px #999;
+}
+
+#navlinks > li:last-child {
+    border: 0;
+}
+
+#navlinks > a:last-child {
+    padding: 10px;
+    width: 100%;
+    border-color: #041D2F;
+}
+
+/*********   Fin de #Home Header  ************************/
+/*********   Section              ************************/
+
+.inline {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+main {
+    background-image: url("../img/white_wall_hash.png");
+    text-align: center;
+}
+
+section {
+    width: 96%;
+    height: 100%;
+    padding: 25px 0;
+    vertical-align: top;
+}
+
+.id {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background: transparent url("../img/profilsmall.jpg") no-repeat;
+}
+
+.middle {
+    width: 65%;
+    margin-top: 20px;
+}
+
+.middle p {
+    margin: 0 auto 20px;
+    width: 80%;
+    text-align: justify;
+}
+
+.idcard {
+    width: 15%;
+    margin: 30px 0 0 0;
+}
+.resume{
+    width: 15%;
+    margin:0px;
+}
+
+.inner {
+    width: 145px;
+    height: 120px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.idcard .inner {
+    width: 110px;
+    margin-bottom: 5px;
+}
+
+.idcard p {
+    margin: 0 auto;
+    font-size: 80%;
+}
+
+i {
+    margin-top: 10px;
+}
+
+h4 {
+    text-transform: uppercase;
+    /*font-size: 1.8vw;*/
+    /*line-height: 2.2vw;*/
+}
+
+.phone {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.subtitle {
+    font-family: Palatino, sans-serif;
+    text-transform: uppercase;
+    font-size: 50%;
+    letter-spacing: 1.2px;
+    vertical-align: top;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 55%;
+    margin: 2.5vw auto 0;
+}
+
+.carreaux {
+    background: #f4f4f4 repeating-linear-gradient(45deg, transparent, transparent 2px, #dddddd 2px, #dddddd 3px);
+}
+
+main header {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+main h2 {
+    font-family: Roboto, sans-serif;
+    color: #666;
+    margin: 0;
+    font-size:120%;
+}
+
+/**********   Section exp (expérience et compétences *************************/
+
+#exp span {
+    /*font-size: 1vw;*/
+}
+
+#exp h4 {
+    color: #21cf8f;
+    text-transform: none;
+}
+#exp a {
+    color: #F1AC52;
+    text-transform: none;
+}
+.big {
+    width: 60%;
+    text-align: left;
+}
+
+.other h3 {
+    font-size: 83%;
+}
+
+/*******************   Barres de compétences *************************/
+
+.skills_container {
+    width: 30%;
+    text-align: left;
+    padding-top: 40px;
+    font-size: 75%;
+}
+
+.skills {
+    margin: 0 auto 70px;
+    width: 60%;
+}
+
+.skills li {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 6px;
+    line-height: 8px;
+    text-transform: uppercase;
+    /*font-size: 1.2vw;*/
+}
+
+.bar_container,
+.bar {
+    position: absolute;
+    left: 0;
+    height: 5px;
+    border-radius: 5px;
+    content: "";
+}
+
+.bar_container {
+    bottom: -8px;
+    width: 100%;
+    background-color: #bcbcbc;
+    text-align: right;
+}
+
+.bar {
+    top: 0;
+}
+
+.pct {
+    position: absolute;
+    top: -19px;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+#html .bar {
+    background-color: #F1AC52;
+    width: 100%;
+}
+
+#css .bar {
+    background-color: #21cf8f;
+    width: 100%;
+}
+
+#php .bar {
+    background-color: #cac92a;
+    width: 75%;
+}
+
+#javascript .bar {
+    background-color: #E23B02;
+    width: 75%;
+}
+
+#responsive .bar {
+    background-color: #9b59b6;
+    width: 75%;
+}
+
+#ruby .bar {
+    background-color: #18a6ae;
+    width: 25%;
+}
+
+#wordpress .bar {
+    background-color: #666666;
+    width: 75%;
+}
+
+#team .bar {
+    background-color: #F1AC52;
+    width: 75%;
+}
+
+#english .bar {
+    background-color: #21cf8f;
+    width: 100%;
+}
+
+#german .bar {
+    background-color: #9b59b6;
+    width: 75%;
+}
+
+#sociability .bar {
+    background-color: #E23B02;
+    width: 100%;
+}
+
+#project .bar {
+    background-color: #666666;
+    width: 75%;
+}
+
+#learner .bar {
+    background-color: #18a6ae;
+    width: 100%;
+}
+
+.other .skills_container {
+    padding: 0;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: grey;
+}
+
+/*************************Section Portfolio ***************************/
+.full {
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#portfolio {
+    display: inline-block;
+    opacity: 1;
+}
+
+#portfolio li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#filters {
+    display: block;
+    width: 100%;
+    margin: 1%;
+    padding: 0;
+    list-style: none;
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #1C5570;
+    cursor: pointer;
+}
+
+#filters li span.active {
+    background: #E23B02;
+    color: #fff;
+}
+
+#filters .active {
+    height: auto;
+}
+
+#portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 23%;
+    margin: 1%;
+    display: none;
+    float: left;
+    overflow: hidden;
+}
+
+.portfolio-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    background: #666;
+    cursor: pointer;
+}
+
+.portfolio img {
+    max-width: 100%;
+    position: relative;
+}
+
+.portfolio .label {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 75px;
+    bottom: -75px;
+}
+
+.portfolio .label-bg {
+    background: #505050;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portfolio .label-text {
+    color: #fff;
+    position: relative;
+    z-index: 500;
+    padding: 5px 8px;
+}
+
+.portfolio .text-category {
+    display: block;
+}
+
+.cat1 img {
+    background-color: #666;
+}
+
+.navbar-inverse {
+    background-image: url(../img/bg_waves.png);
+}
+
+/*******************Footer***************/
+
+/****Contact****/
+
+.contactinfo1 {
+    width: 30%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.glue {
+    margin-bottom: 0;
+}
+
+.contactinfo1 i {
+    color: #E23B02;
+}
+
+/*
+Formulaire
+*/
+form {
+    font: 95% Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px;
+    padding: 5px;
+    /*background: #F7F7F7;*/
+}
+
+.formgroup {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.formgroup h3 {
+    background: #666;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 1%;
+}
+
+form input,
+form textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    box-shadow: 0 0 5px #ddf2ab;
+    padding: 3%;
+    border: 1px solid #ddf2ab;
+}
+
+form input[type="submit"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #666;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+
+form input[type="submit"]:hover {
+    background: #d7d7d7;
+    color: #F1AC52;
+}
+
+/*
+Fin de formulaire
+*/
+/* Gestion des messages et alertes*/
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+    width: 90%;
+    max-width: 600px;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.info-msg {
+    color: #059;
+    background-color: #BEF;
+}
+
+.success-msg {
+    color: #270;
+    background-color: #DFF2BF;
+}
+
+.warning-msg {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.error-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+}

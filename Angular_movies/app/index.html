@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="myApp" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!--<base href="/">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular movies</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="container-fluid">
+    <nav id="nav-top" class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="containe-fluid">
+            <a class="navbar-brand" href="#/home"><img src="img/angular.png"> </a>
+            <div class="nav navbar-nav">
+                    <a href="#/movies">Tous les films</a>
+                <a class="navbar-link" href="http://skylightbubble.com">Retour Cv</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div ng-view class="container-fluid"></div>
+
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="../node_modules/angular-resource/angular-resource.js"></script>
+<script type="text/javascript" src="../node_modules/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src='https://cdn.firebase.com/js/client/2.2.4/firebase.js'></script>
+<script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="js/controllers/MoviesController.js"></script>
+<script type="text/javascript" src="js/controllers/MoviesController.js"></script>
+<script type="text/javascript" src="js/controllers/MovieFormController.js"></script>
+<script type="text/javascript" src="js/controllers/MovieEditController.js"></script>
+<script type="text/javascript" src="js/services/moviesFactory.js"></script>
+<script type="text/javascript" src="js/Filters/posterFilter.js"></script>
+<script type="text/javascript" src="js/Filters/starsFilter.js"></script>
+
+
+</body>
+
+</html>

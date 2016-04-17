@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Auto-complétion</title>
+</head>
+<br>
+<h1> Recherchez une ville</h1>
+<input id="input" type="text" autocomplete="off" placeholder="ville à rechercher" autofocus>
+<div id="results"></div>
+<div id="why">
+    Ce système d'auto-completion fonctionne avec des requête Ajax vers un fichier PHP qui trouve les correspondances
+    dans un ensemble de villes.</br>
+    Il est possible de se déplacer avec les flèches haut et bas et de sélectionner une ville dans le menu déroulant qui
+    affiche les propositions.</br>
+    Seul le système d'auto completion est traité ici : La requête pour afficher les informations concernant la ville en
+    question n'est pas menée ici.
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

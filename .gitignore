@@ -1,0 +1,12 @@
+/Angular_movies/node_modules
+/Angular_movies/app/lib
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+# Created by .ignore support plugin (hsz.mobi)
+o

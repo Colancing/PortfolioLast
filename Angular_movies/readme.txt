@@ -14,4 +14,3 @@ Pour observer ce qui se trouve sur le serveur :
  http://localhost:3000/movies/:id (attention pas le $index)
 
  Pour faire des tests, utiliser l'outil de phpstorm : testrestful web service
- 

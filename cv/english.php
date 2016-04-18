@@ -318,12 +318,27 @@ session_start()
 								<a class="text-title">Road-web.fr</a>
 								<span class="text-category">Full website creation project complet</span>
 								<span class="text-category">Html Css Php Laravel and soon Angular</span>
-
 							</div>
 							<div class="label-bg"></div>
 						</div>
 					</div>
 				</div>
+				<div class="portfolio cat1 cat2 cat3" data-cat="cat1 cat2 cat3">
+					<div class="portfolio-wrapper">
+						<a href="../Angular_movies/app/index.html">
+							<img src="../Angular_movies/app/img/angular_movies.jpg" alt="pictures of the main page">
+						</a>
+						<div class="label">
+							<div class="label-text">
+								<a class="text-title">Vidéo Library</a>
+								<span class="text-category">Angular Project </span>
+								<span class="text-category">Restful Architecture</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>
+
 				<div class="portfolio cat2" data-cat="cat2">
 					<div class="portfolio-wrapper">
 						<a href="../Annuaire/index.html">
@@ -493,17 +508,17 @@ session_start()
 
 					<h3>Contact me</h3>
 					<label for="name" class="sr-only"></label>
-					<input required class="form-control" type="text" name="name" id="name" placeholder="Votre nom"
+					<input required class="form-control" type="text" name="name" id="name" placeholder="your name"
 					       value="<?= isset( $_SESSION['inputs']['name'] ) ? $_SESSION['inputs']['name'] : ""; ?>">
 
 					<label for="mail" class="sr-only"> </label>
-					<input required class="form-control" type="email" name="mail" id="mail" placeholder="Votre email"
+					<input required class="form-control" type="email" name="mail" id="mail" placeholder="your Email"
 					       value="
 					       <?= isset( $_SESSION['inputs']['mail'] ) ? $_SESSION['inputs']['mail'] : ""; ?>">
 					<label for="message" class="sr-only"></label>
                     <textarea required class="form-control" name="message" id="message" cols="30" rows="5"
-                              placeholder="Votre message"><?= isset( $_SESSION['inputs']['message'] ) ? $_SESSION['inputs']['message'] : ""; ?></textarea>
-					<input type="submit" value="ENVOYER">
+                              placeholder="Your message"><?= isset( $_SESSION['inputs']['message'] ) ? $_SESSION['inputs']['message'] : ""; ?></textarea>
+					<input type="submit" value="SEND">
 				</form>
 				<?php
 				if ( isset( $_SESSION['errors'] ) ): ?>

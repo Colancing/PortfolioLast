@@ -8,11 +8,14 @@
                 <button class="btn btn-primary" data-toggle="modal" data-target="#movie-form-modal">
                     Ajouter un film
                 </button>
+                <button class="btn btn-info" ng-click="reset()">
+                    Reset
+                </button>
             </h1>
         </div>
     </div>
     <div class="row">
-        <div id="sortering" class="col-sm-6 col-xs-12">
+        <div id="sortering" class="col-sm-8 col-xs-12">
             <div class="col-sm-3 col-xs-6">
                 <div class="onoffswitch">
                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox col-sm-12" id="myonoffswitch"
@@ -23,12 +26,12 @@
                     </label>
                 </div>
             </div>
-            <div class="col-sm-5 col-xs-6">
+            <div class="col-sm-3 col-xs-6">
                 <span class="visible-sm">Trier par : </span>
                 <button class="btn btn-secondary btn-xs" ng-click="predicate='title'">Titre</button>
                 <button class="btn btn-secondary btn-xs" ng-click="predicate='releaseYear'">Année</button>
             </div>
-            <div class="input-group col-sm-4 col-xs-12" id="searchbar">
+            <div class="input-group col-sm-6 col-xs-12" id="searchbar">
                 <input type="text" class="search-query form-control" ng-model="search" placeholder="Recherchez"/>
                 <span class="input-group-btn">
                     <button class="btn btn-danger" type="button">

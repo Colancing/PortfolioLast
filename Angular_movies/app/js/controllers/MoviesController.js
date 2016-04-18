@@ -1,7 +1,12 @@
-myApp.controller('MoviesController', function ($scope, $firebaseArray, $location) {
+myApp.controller('MoviesController', function ($scope, $firebaseArray, $location, moviesFactory) {
 
-    $scope.get = function () {
+    //$scope.get = function () {
+    //    var ref = new Firebase("https://burning-inferno-3260.firebaseio.com/movies");
+    //    $scope.movies = $firebaseArray(ref);
+    //};
+    $scope.reset = function () {
         var ref = new Firebase("https://burning-inferno-3260.firebaseio.com/movies");
+        ref.set(moviesFactory);
         $scope.movies = $firebaseArray(ref);
     };
 
@@ -17,13 +22,15 @@ myApp.controller('MoviesController', function ($scope, $firebaseArray, $location
             )
         ;
     };
-    $scope.getIndex = function(movie){
+    $scope.getIndex = function (movie) {
         return $scope.movies.indexOf(movie);
-    };;
+    };
     $scope.gotoEdit = function (path) {
         $location.path(path);
     };
-    $scope.get();
+
+
+    $scope.reset();
 
 })
 ;

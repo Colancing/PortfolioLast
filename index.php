@@ -114,7 +114,7 @@ session_start()
 			</div>
 		</div>
 		<div class="middle  inline">
-			<p> Depuis 3 ans, je consacre tout mon temps à à la pratique et à l'apprentissage du code.
+			<p> Depuis 4 ans, je consacre tout mon temps à à la pratique et à l'apprentissage du code.
 				J'ai maintenant une solide connaissance des langages principaux en back et front ainsi que des
 				frameworks qui leur sont associés.</p>
 

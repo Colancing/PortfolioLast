@@ -386,7 +386,7 @@ main h2 {
 
 #php .bar {
     background-color: #cac92a;
-    width: 75%;
+    width: 50%;
 }
 
 #javascript .bar {
@@ -399,14 +399,14 @@ main h2 {
     width: 75%;
 }
 
-#ruby .bar {
+#angular .bar {
     background-color: #18a6ae;
-    width: 25%;
+    width: 75%;
 }
 
 #wordpress .bar {
     background-color: #666666;
-    width: 75%;
+    width: 50%;
 }
 
 #team .bar {

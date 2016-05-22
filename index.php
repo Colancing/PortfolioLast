@@ -189,7 +189,7 @@ session_start()
 					</div>
 				</li>
 				<li id="css">
-					CSS3
+					CSS3 / BOOTSTRAP
 					<div class="bar_container">
 						<span class="bar"></span>
 					</div>
@@ -205,14 +205,16 @@ session_start()
 						<span class="bar"></span>
 					</div>
 				</li>
-				<li id="php">
-					PHP
+
+
+				<li id="angular">angular
 					<div class="bar_container">
 						<span class="bar"></span>
 					</div>
 				</li>
 
-				<li id="ruby">RUBY
+				<li id="php">
+					PHP
 					<div class="bar_container">
 						<span class="bar"></span>
 					</div>
@@ -297,7 +299,7 @@ session_start()
 				<li><span class="filter" data-filter="cat1">Html/css</span></li>
 				<li><span class="filter" data-filter="cat2">Javascript</span></li>
 				<li><span class="filter" data-filter="cat3">Bootstrap</span></li>
-				<!--<li><span class="filter" data-filter="cat4">Ruby</span></li>-->
+				<li><span class="filter" data-filter="cat4">Angular</span></li>
 				<li><span class="filter" data-filter="cat5">Php/Laravel</span></li>
 				<li><span class="filter" data-filter="cat6">Wordpress</span></li>
 			</ul>
@@ -319,7 +321,7 @@ session_start()
 					</div>
 				</div>
 
-				<div class="portfolio cat1 cat2 cat3" data-cat="cat1 cat2 cat3">
+				<div class="portfolio cat1 cat2 cat3 cat4" data-cat="cat1 cat2 cat3 cat4">
 					<div class="portfolio-wrapper">
 						<a href="Angular_movies/app/index.html">
 							<img src="Angular_movies/app/img/angular_movies.jpg" alt="vue de la page films">
@@ -447,16 +449,16 @@ session_start()
 						</div>
 					</div>
 				</div>
-				<div class="portfolio cat2 cat5" data-cat="cat2 cat5">
+				<div class="portfolio cat1 cat2 cat3 cat4" data-cat="cat1 cat2 cat3 cat4">
 					<div class="portfolio-wrapper">
-						<a href="completion/index.html">
-							<img src="completion/completion.png"
-							     alt="formulaire avec aide aux choix par autocompletion">
+						<a href="quizzangular/App/index.html">
+							<img src="cv/img/geek.png"
+							     alt="Quiz réalisé avec Angular">
 						</a>
 						<div class="label">
 							<div class="label-text">
-								<a class="text-title">Autocompletion</a>
-								<span class="text-category">Requête Ajax avec gestion des touches claviers</span>
+								<a class="text-title">Quel geek êtes-vous ?</a>
+								<span class="text-category">Quizz Angular</span>
 							</div>
 							<div class="label-bg"></div>
 						</div>

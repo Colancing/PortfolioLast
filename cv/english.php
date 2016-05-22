@@ -116,7 +116,7 @@ session_start()
 			</div>
 		</div>
 		<div class="middle  inline">
-			<p> For 3 years, I have been dedicating all my time to the practise and learning of code.
+			<p> For 4 years, I have been dedicating all my time to the practise and learning of code.
 				I have developed a solid expertise in the main front and back languages including some of their
 				frameworks.
 			</p>
